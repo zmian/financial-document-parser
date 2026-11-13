@@ -1,0 +1,73 @@
+{
+  "file": "pay-stub-peo.pdf",
+  "type": "pay_stub",
+  "variant": "peo",
+  "data": {
+    "employeeName": "Priya Natarajan",
+    "employerName": "Harbor Coffee Co.",
+    "payDate": "2026-10-23",
+    "payPeriodStart": "2026-10-05",
+    "payPeriodEnd": "2026-10-18",
+    "payFrequency": "biweekly",
+    "grossPay": 2480,
+    "grossPayYtd": 52080,
+    "netPay": 1797.4,
+    "netPayYtd": 37745.4,
+    "earnings": [
+      {
+        "name": "Regular",
+        "type": "regular",
+        "rate": 31,
+        "hours": 80,
+        "currentPeriod": 2480,
+        "ytd": 52080
+      }
+    ],
+    "taxes": [
+      {
+        "name": "Federal Income Tax",
+        "type": "federal_income",
+        "currentPeriod": 239.2,
+        "ytd": 5023.2
+      },
+      {
+        "name": "Social Security",
+        "type": "social_security",
+        "currentPeriod": 148.3,
+        "ytd": 3114.3
+      },
+      {
+        "name": "Medicare",
+        "type": "medicare",
+        "currentPeriod": 34.68,
+        "ytd": 728.28
+      },
+      {
+        "name": "California Income Tax",
+        "type": "state_income",
+        "currentPeriod": 83.72,
+        "ytd": 1758.12
+      },
+      {
+        "name": "California SDI",
+        "type": "state_disability",
+        "currentPeriod": 28.7,
+        "ytd": 602.7
+      }
+    ],
+    "deductions": [
+      {
+        "name": "Medical (pre-tax)",
+        "type": "medical",
+        "currentPeriod": 88,
+        "ytd": 1848
+      },
+      {
+        "name": "Commuter (pre-tax)",
+        "type": "commuter",
+        "currentPeriod": 60,
+        "ytd": 1260
+      }
+    ]
+  }
+}

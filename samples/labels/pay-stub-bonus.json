@@ -1,0 +1,107 @@
+{
+  "file": "pay-stub-bonus.pdf",
+  "type": "pay_stub",
+  "variant": "off_cycle",
+  "data": {
+    "employeeName": "Maya Okafor",
+    "employerName": "Northwind Labs, Inc.",
+    "payDate": "2026-11-06",
+    "payPeriodStart": "2026-11-06",
+    "payPeriodEnd": "2026-11-06",
+    "payFrequency": "biweekly",
+    "grossPay": 6000,
+    "grossPayYtd": 105330,
+    "netPay": 3553.86,
+    "netPayYtd": 66438,
+    "earnings": [
+      {
+        "name": "Regular",
+        "type": "regular",
+        "rate": null,
+        "hours": null,
+        "currentPeriod": null,
+        "ytd": 92400
+      },
+      {
+        "name": "Overtime",
+        "type": "overtime",
+        "rate": null,
+        "hours": null,
+        "currentPeriod": null,
+        "ytd": 6930
+      },
+      {
+        "name": "Annual Bonus",
+        "type": "bonus",
+        "rate": null,
+        "hours": null,
+        "currentPeriod": 6000,
+        "ytd": 6000
+      }
+    ],
+    "taxes": [
+      {
+        "name": "Federal Income Tax",
+        "type": "federal_income",
+        "currentPeriod": 1240.8,
+        "ytd": 13817.54
+      },
+      {
+        "name": "Social Security",
+        "type": "social_security",
+        "currentPeriod": 372,
+        "ytd": 6311.12
+      },
+      {
+        "name": "Medicare",
+        "type": "medicare",
+        "currentPeriod": 87,
+        "ytd": 1476.08
+      },
+      {
+        "name": "NY State Income Tax",
+        "type": "state_income",
+        "currentPeriod": 386.34,
+        "ytd": 5057.6
+      },
+      {
+        "name": "NY SDI",
+        "type": "state_disability",
+        "currentPeriod": null,
+        "ytd": 44.88
+      },
+      {
+        "name": "NY Paid Family Leave",
+        "type": "state_family_leave",
+        "currentPeriod": null,
+        "ytd": 348.48
+      }
+    ],
+    "deductions": [
+      {
+        "name": "401(k)",
+        "type": "traditional_401k",
+        "currentPeriod": 360,
+        "ytd": 6319.8
+      },
+      {
+        "name": "Medical",
+        "type": "medical",
+        "currentPeriod": null,
+        "ytd": 3135
+      },
+      {
+        "name": "Dental",
+        "type": "dental",
+        "currentPeriod": null,
+        "ytd": 401.5
+      },
+      {
+        "name": "Roth 401(k)",
+        "type": "roth_401k",
+        "currentPeriod": null,
+        "ytd": 1980
+      }
+    ]
+  }
+}

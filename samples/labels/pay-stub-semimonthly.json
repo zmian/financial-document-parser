@@ -1,0 +1,85 @@
+{
+  "file": "pay-stub-semimonthly.pdf",
+  "type": "pay_stub",
+  "variant": "standard",
+  "data": {
+    "employeeName": "Daniel Reyes",
+    "employerName": "Tidewater Logistics LLC",
+    "payDate": "2026-10-31",
+    "payPeriodStart": "2026-10-16",
+    "payPeriodEnd": "2026-10-31",
+    "payFrequency": "semimonthly",
+    "grossPay": 5208.33,
+    "grossPayYtd": 104166.6,
+    "netPay": 3268.53,
+    "netPayYtd": 65370.6,
+    "earnings": [
+      {
+        "name": "Salary",
+        "type": "salary",
+        "rate": null,
+        "hours": null,
+        "currentPeriod": 5208.33,
+        "ytd": 104166.6
+      }
+    ],
+    "taxes": [
+      {
+        "name": "Fed Withholdng",
+        "type": "federal_income",
+        "currentPeriod": 704.01,
+        "ytd": 14080.2
+      },
+      {
+        "name": "OASDI",
+        "type": "social_security",
+        "currentPeriod": 310.37,
+        "ytd": 6207.4
+      },
+      {
+        "name": "Fed MED/EE",
+        "type": "medicare",
+        "currentPeriod": 72.59,
+        "ytd": 1451.8
+      },
+      {
+        "name": "CA State Tax",
+        "type": "state_income",
+        "currentPeriod": 281.61,
+        "ytd": 5632.2
+      },
+      {
+        "name": "CA SDI",
+        "type": "state_disability",
+        "currentPeriod": 56.32,
+        "ytd": 1126.4
+      }
+    ],
+    "deductions": [
+      {
+        "name": "401K Pretax",
+        "type": "traditional_401k",
+        "currentPeriod": 312.5,
+        "ytd": 6250
+      },
+      {
+        "name": "Med Pre-Tax",
+        "type": "medical",
+        "currentPeriod": 96,
+        "ytd": 1920
+      },
+      {
+        "name": "Vision",
+        "type": "vision",
+        "currentPeriod": 6.4,
+        "ytd": 128
+      },
+      {
+        "name": "HSA EE",
+        "type": "hsa",
+        "currentPeriod": 100,
+        "ytd": 2000
+      }
+    ]
+  }
+}

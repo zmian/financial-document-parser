@@ -1,0 +1,99 @@
+{
+  "file": "pay-stub-standard.pdf",
+  "type": "pay_stub",
+  "variant": "standard",
+  "data": {
+    "employeeName": "Maya Okafor",
+    "employerName": "Northwind Labs, Inc.",
+    "payDate": "2026-10-30",
+    "payPeriodStart": "2026-10-12",
+    "payPeriodEnd": "2026-10-25",
+    "payFrequency": "biweekly",
+    "grossPay": 4515,
+    "grossPayYtd": 99330,
+    "netPay": 2858.37,
+    "netPayYtd": 62884.14,
+    "earnings": [
+      {
+        "name": "Regular",
+        "type": "regular",
+        "rate": 52.5,
+        "hours": 80,
+        "currentPeriod": 4200,
+        "ytd": 92400
+      },
+      {
+        "name": "Overtime",
+        "type": "overtime",
+        "rate": 78.75,
+        "hours": 4,
+        "currentPeriod": 315,
+        "ytd": 6930
+      }
+    ],
+    "taxes": [
+      {
+        "name": "Federal Income Tax",
+        "type": "federal_income",
+        "currentPeriod": 571.67,
+        "ytd": 12576.74
+      },
+      {
+        "name": "Social Security",
+        "type": "social_security",
+        "currentPeriod": 269.96,
+        "ytd": 5939.12
+      },
+      {
+        "name": "Medicare",
+        "type": "medicare",
+        "currentPeriod": 63.14,
+        "ytd": 1389.08
+      },
+      {
+        "name": "NY State Income Tax",
+        "type": "state_income",
+        "currentPeriod": 212.33,
+        "ytd": 4671.26
+      },
+      {
+        "name": "NY SDI",
+        "type": "state_disability",
+        "currentPeriod": 2.04,
+        "ytd": 44.88
+      },
+      {
+        "name": "NY Paid Family Leave",
+        "type": "state_family_leave",
+        "currentPeriod": 15.84,
+        "ytd": 348.48
+      }
+    ],
+    "deductions": [
+      {
+        "name": "401(k)",
+        "type": "traditional_401k",
+        "currentPeriod": 270.9,
+        "ytd": 5959.8
+      },
+      {
+        "name": "Medical",
+        "type": "medical",
+        "currentPeriod": 142.5,
+        "ytd": 3135
+      },
+      {
+        "name": "Dental",
+        "type": "dental",
+        "currentPeriod": 18.25,
+        "ytd": 401.5
+      },
+      {
+        "name": "Roth 401(k)",
+        "type": "roth_401k",
+        "currentPeriod": 90,
+        "ytd": 1980
+      }
+    ]
+  }
+}

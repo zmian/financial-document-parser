@@ -1,0 +1,67 @@
+{
+  "file": "bank-statement-credit-card.pdf",
+  "type": "bank_statement",
+  "variant": "credit_card",
+  "data": {
+    "institutionName": "Meridian Card Services",
+    "accountName": "Meridian Rewards Visa",
+    "accountNumberLast4": "7730",
+    "holderName": "Maya Okafor",
+    "statementStart": "2026-10-23",
+    "statementEnd": "2026-11-22",
+    "openingBalance": 1240.56,
+    "transactions": [
+      {
+        "date": "2026-10-25",
+        "description": "BLUE DOOR BISTRO",
+        "amount": 64.3,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-27",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 1240.56,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-29",
+        "description": "SKYWAY AIRLINES",
+        "amount": 412.8,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-11-02",
+        "description": "HOMEGOODS DEPOT",
+        "amount": 138.47,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-11-05",
+        "description": "SKYWAY AIRLINES - REFUND",
+        "amount": 89,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-11-09",
+        "description": "FUELSTOP 2231",
+        "amount": 52.11,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-11-14",
+        "description": "BOOKNOOK ONLINE",
+        "amount": 27.99,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-11-18",
+        "description": "FOREIGN TRANSACTION FEE",
+        "amount": 3.12,
+        "direction": "debit"
+      }
+    ],
+    "closingBalance": 609.79,
+    "totalCredits": 1329.56,
+    "totalDebits": 698.79
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "file": "bank-statement-checking.pdf",
+  "type": "bank_statement",
+  "variant": "checking",
+  "data": {
+    "institutionName": "Riverbend Community Bank",
+    "accountName": "Everyday Checking",
+    "accountNumberLast4": "4821",
+    "holderName": "Maya Okafor",
+    "statementStart": "2026-10-01",
+    "statementEnd": "2026-10-31",
+    "openingBalance": 3184.27,
+    "transactions": [
+      {
+        "date": "2026-10-01",
+        "description": "RENT PAYMENT - ONLINE TRANSFER",
+        "amount": 2150,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-02",
+        "description": "NORTHWIND LABS PAYROLL",
+        "amount": 2858.37,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-03",
+        "description": "GREENLEAF MARKET #114",
+        "amount": 86.42,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-06",
+        "description": "CITY UTILITIES AUTOPAY",
+        "amount": 74.19,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-08",
+        "description": "ATM WITHDRAWAL 0412",
+        "amount": 100,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-10",
+        "description": "STREAMFLIX SUBSCRIPTION",
+        "amount": 15.99,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-14",
+        "description": "TRANSFER TO SAVINGS 0193",
+        "amount": 500,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-16",
+        "description": "NORTHWIND LABS PAYROLL",
+        "amount": 2858.37,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-17",
+        "description": "GREENLEAF MARKET #114",
+        "amount": 112.08,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-20",
+        "description": "MERIDIAN CARD PAYMENT",
+        "amount": 1240.56,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-22",
+        "description": "VENMO CASHOUT",
+        "amount": 45,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-24",
+        "description": "CORNER PHARMACY",
+        "amount": 23.67,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-28",
+        "description": "GYMWORKS MEMBERSHIP",
+        "amount": 49,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-30",
+        "description": "NORTHWIND LABS PAYROLL",
+        "amount": 2858.37,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-31",
+        "description": "MONTHLY SERVICE FEE",
+        "amount": 6,
+        "direction": "debit"
+      }
+    ],
+    "closingBalance": 7446.47,
+    "totalCredits": 8620.11,
+    "totalDebits": 4357.91
+  }
+}

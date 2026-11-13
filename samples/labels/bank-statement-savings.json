@@ -1,0 +1,37 @@
+{
+  "file": "bank-statement-savings.pdf",
+  "type": "bank_statement",
+  "variant": "savings",
+  "data": {
+    "institutionName": "Summit Savings & Loan",
+    "accountName": "High Yield Savings",
+    "accountNumberLast4": "0193",
+    "holderName": "Maya Okafor & Sam Okafor",
+    "statementStart": "2026-10-01",
+    "statementEnd": "2026-10-31",
+    "openingBalance": 18450.12,
+    "transactions": [
+      {
+        "date": "2026-10-14",
+        "description": "Transfer from checking ...4821",
+        "amount": 500,
+        "direction": "credit"
+      },
+      {
+        "date": "2026-10-21",
+        "description": "Withdrawal - online transfer",
+        "amount": 1200,
+        "direction": "debit"
+      },
+      {
+        "date": "2026-10-31",
+        "description": "Interest paid",
+        "amount": 57.43,
+        "direction": "credit"
+      }
+    ],
+    "closingBalance": 17807.55,
+    "totalCredits": null,
+    "totalDebits": null
+  }
+}
